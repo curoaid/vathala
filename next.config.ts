@@ -101,6 +101,11 @@ const nextConfig: NextConfig = {
         destination: "/blogs/:slug",
         permanent: true,
       },
+      {
+        source: "/:path*",
+        destination: "https://curoaid.com/:path*",
+        permanent: true,
+      },
     ];
   },
 
